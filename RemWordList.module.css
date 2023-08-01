@@ -1,0 +1,38 @@
+.remWords {
+  padding: 12px 8px 12px 8px;
+  border-radius: 8px;
+  /*animation: animate-in 1s ease-out forwards;*/
+  border: 5px solid white;
+  width: 1010px;
+  margin: 0px auto;
+}
+
+.title {
+  font-weight: bold;
+  color: #787c7e;
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.body {
+  white-space: pre-wrap;
+  margin: 0;
+  color: #787c7e;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.1;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@keyframes animate-in {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,30 @@
+
+.stats {
+    list-style: none;
+    margin: 5px auto 0px auto;
+    padding: 0;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 710px;
+    color: #787c7e;
+    font-size: 18px;
+}
+
+.contentLeft {
+    display: grid;
+    align-items: left;
+    justify-items: left;
+}
+
+.contentCenter {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.contentRight {
+    display: grid;
+    align-items: right;
+    justify-items: right;
+}

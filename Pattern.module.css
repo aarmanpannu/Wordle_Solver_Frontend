@@ -1,0 +1,37 @@
+.pattern {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pattern > div {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.yellowDull {
+    background-color: #dfd29d;
+}
+
+.greenDull {
+    background-color: #a8cca2;
+}
+
+.greyDull {
+    background-color: #afb0b2;
+}
+
+.yellow {
+    background-color: #c9b458;
+}
+
+.green {
+    background-color: #6ba964;
+}
+
+.grey {
+    background-color: #787c7e;
+}
